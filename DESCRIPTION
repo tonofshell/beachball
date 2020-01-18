@@ -1,13 +1,16 @@
 Package: beachball
 Type: Package
-Title: Better Themes and Color Palettes
-Version: 0.1.0
-Author: Adam Shelton
+Title: Better ggplot Themes and Color Palettes
+Version: 0.2.0
+Authors@R: person("Adam", "Shelton", email = "aqs@uchicago.edu",
+                  role = c("aut", "cre"))
 Maintainer: Adam Shelton <aqs@uchicago.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: MIT
+URL: https://github.com/tonofshell/beachball
+Description: Improvements for visualizing data with ggplot. It includes enhanced options for themes, color palettes, and helper functions to make ggplot better (and easier) to use.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: 
-  ggplot2
+Depends: 
+  ggplot2,
+  grDevices
+RoxygenNote: 7.0.2
